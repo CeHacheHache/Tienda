@@ -29,6 +29,12 @@ export class ProductItemComponent implements OnInit {
       this.msg.sendMsg(this.productItem)
     })
   }
+  
+  handleRemoveToCart() {
+    this.cartService.deleteProductToCart(this.productItem).subscribe(() => {
+      this.msg.sendMsg(this.productItem)
+    })
+  }
 
   handleAddToWishlist() {
     this.wishlistService.addToWishlist(this.productItem.id).subscribe(() => {

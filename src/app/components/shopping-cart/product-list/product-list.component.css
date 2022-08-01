@@ -1,0 +1,71 @@
+input {
+    top: 144px;
+    padding-left: 10px;
+    left: 250px;
+    width: 684px;
+    height: 56px;
+    background: #FFFFFF 0% 0%;
+    border: 1px solid #FF5D54;
+    border-radius: 8px;
+    opacity: 1;
+    text-align: left;
+    font: normal normal normal 16px/21px;
+    letter-spacing: 0px;
+    color: #FF5D54;
+    font-family: 'Roboto', sans-serif;
+}
+
+p.card-text {
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.product-item {
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    position: relative;
+}
+
+.row{
+    position: relative;
+    align-items: center;
+    margin: auto; 
+}
+
+.forms-control{
+    top: 144px;
+    left: 200px;
+    width: 624px;
+    height: 56px;
+    border: 1px solid;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border: 1px solid #FF5D54;
+    border-radius: 8px;
+    opacity: 1;
+    align-items: center;
+    text-align: center;     
+}
+
+.forms-control::placeholder {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    background-position: right;
+    color: #FF5D54;
+    text-transform: lowercase;
+    display: grid;
+    place-content: center;
+}
+
+.form-group{
+    margin-top: -20px;
+    left: 184px;
+    width: 840px;
+    height: 64px;
+    background: #FFFFFF 0% 0% ;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 0px 0px 16px 0px;
+    opacity: 1;
+}
+

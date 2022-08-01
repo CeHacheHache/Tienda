@@ -1,0 +1,148 @@
+.card-header {
+    width: 112px;
+    height: 20px;
+    margin-top: 180px;
+
+}
+.icon-pen {
+    margin-top: -10px;
+    left: 140px;
+    width: 35px;
+    height: 35px;
+    color: #FFFFFF;
+    box-shadow: 0px 2px 3px #00000029;
+    opacity: 1;
+    border-radius: 50%;
+    background-color: #FF5D54;
+    border-width: 20px;
+    position: absolute;
+    display: grid;
+    place-content: center;
+   
+}
+
+
+
+.logo-fresh {
+    width: 19px;
+    height: 16px;
+}
+
+.nav-lat {
+    list-style: none;
+    top: 284px;
+    left: 56px;
+    width: 112px;
+    height: 20px;
+    text-align: left;
+    font: normal normal normal 14px/19px 'Roboto';
+    letter-spacing: 0.01px;
+    color: #FF5D54;
+    opacity: 1;
+    margin-top: 20px;
+   
+}
+
+li {
+   
+    align-items: center;
+    margin-left: 17px;
+    
+
+   
+}
+
+.card-body {
+   top: -80px;
+    left: 0px;
+    width: 184px;
+    height: 680px;
+    background: #FFFFFF 0% 0%;
+    box-shadow: 6px -3px 6px #00000029;
+    border-radius: 0px 24px 0px 0px;
+    opacity: 1;
+    position: absolute;
+}
+
+
+.cerrar {
+    top: 640px;
+    left: 16px;
+    width: 152px;
+    height: 48px;
+    background: #FF5D54 0% 0% ;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 30px;
+    opacity: 1;
+    top: 652px;
+    text-align: center;
+    font: normal normal bold 16px/21px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    font-family: 'Roboto';
+    border: none;
+
+}
+
+.salir {
+
+top: 700px;
+    left: 16px;
+    width: 152px;
+    height: 48px;
+    background: #FF5D54 0% 0%;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 30px;
+    opacity: 1;
+    top: 712px;
+    text-align: center;
+    font: normal normal bold 16px/21px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    font-family: 'Roboto';
+    border: none;
+    margin-top: 20px;
+}
+
+.fa-solid {
+    top: 286px;
+    left: 30px;
+    width: 16px;
+    height: 16px;
+    text-align: center;
+    font: normal normal normal 16px/19px;
+    letter-spacing: 0px;
+    color: #FF5D54;
+    opacity: 1;
+    margin-right: 20px;
+    padding-right: 30px;
+    margin: 30px;
+      
+}
+
+
+.list {
+    
+    margin-left: 10px;
+    display: flex;
+    vertical-align: middle;
+    align-items: center;
+    margin-bottom: 20px;
+ 
+    
+}
+
+ .compras {
+    top: 364px;
+    left: 0px;
+    width: 140px;
+    height: 36px;
+    background: #FF5D54 0% 0% ;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 0px 16px 16px 0px;
+    opacity: 1;
+    color: #FFFFFF;
+      
+}

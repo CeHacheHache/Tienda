@@ -16,4 +16,11 @@ export class ProductService {
   getProducts(): Observable<Product[]> {
     return this.http.get<Product[]>(productsUrl);
   }
+
+  removeProductToCart(): Observable<Product[]> {
+    return this.http.get<Product[]>(productsUrl);
+  }
+  removeProduct(): Observable<Product[]> {
+    return this.http.get<Product[]>(productsUrl);
+  }
 }

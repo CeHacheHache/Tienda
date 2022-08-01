@@ -1,13 +1,21 @@
-<div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
-  <h5 class="my-0 mr-md-auto font-weight-normal">
-    <app-header></app-header>
-  </h5>
-  <nav class="my-2 my-md-0 mr-md-3">
-    <a class="p-2 text-dark" [routerLink]="['/shop']">Shop</a>
-    <a class="p-2 text-dark" href="#">Enterprise</a>
-    <a class="p-2 text-dark" href="#">Support</a>
-    <a class="p-2 text-dark" href="#">Pricing</a>
-  </nav>
-  <a class="btn btn-primary" [routerLink]="['/register']">Sign up</a>
-  <a class="btn btn-outline-secondary" [routerLink]="['/login']">Login</a>
+
+<!-- Nav, Login and Register opcions-->
+<div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white ">
+  <header>
+<a routerLink="/"><span class="title-section">Ventas</span> </a>
+<div class="barra-nav">
+  
+  <h5 class="my-0 mr-md-auto font-weight-normal"></h5>
+    <i class="arrow fa-solid fa-angle-left"></i>
+
+    <a class="btn btn-primary" [routerLink]="['/register']">Sign up</a>
+    <a class="btn btn-outline-secondary" [routerLink]="['/login']">Login</a>
+   
+</div>
+<div class="logo">
+  <img class="logo-img" src="../../../../assets/images/logo.png">
+  
+</div>
+  
+</header>
 </div>

@@ -1,5 +1,15 @@
+
+<div class="form-group">
+  <div class="cont-search">
+  <input type="text" class="forms-control" placeholder="Buscar..                                                                                                                          " >
+  
+  <tr *ngFor="let product of productList | filter: productList"></tr>
+</div>
+
+</div>
+
 <div class="row">
-  <div class="col-md-4" *ngFor="let product of productList">
+  <div class="product-item col-md-3" *ngFor="let product of productList">
     <app-product-item [productItem]="product" [addedToWishlist]="wishlist.indexOf(product.id) >= 0"></app-product-item>
   </div>
 </div>

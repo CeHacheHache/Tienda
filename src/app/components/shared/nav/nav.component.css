@@ -1,0 +1,85 @@
+header {
+    margin-top: 10px; 
+    width: 1024px;
+    height: 128px;
+    background: transparent linear-gradient(90deg, #FF885C 0%, #FF5353 100%) 0% 0% ;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    margin: 0 auto;
+    justify-content: center;
+    position: relative;
+        
+}
+
+span {
+    margin-top: 20px;
+    left: 197px;
+    width: 627px;
+    height: 32px;
+    text-align: center;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    font-family: 'Nunito', sans-serif;
+    font-size: 32px;
+}
+
+
+.barra-nav{
+    align-content: flex-end;
+    height: 55px;
+    width: 624px;
+    border-bottom-style: dashed;
+    border-width:  2px;
+    border-color: #FFFFFF;
+    border-spacing: 10px 5px;
+    margin: 0px auto;
+}
+
+.logo {
+    top: 1px;
+    width: 164px;
+    height: 120px;
+    background: #FF5D54 0% 0% ;
+    box-shadow: 6px 3px 6px #00000029;
+    border-radius: 0px 24px 0px 0px;
+    opacity: 1;
+    position: absolute;
+    margin-top: 17px;
+}
+
+.logo-img {
+    width: 70px;
+    height: 60px;
+    align-items: center;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.btn {
+    width: 93px;
+    height: 26px;
+    background: #FF5D54 0% 0%;
+    box-shadow: 0px 3px 6px #00000029;
+    border: none;
+    border-radius: 16px ;
+    opacity: 1;
+    padding: 0px;
+    margin-right: 7px;
+
+}
+
+.arrow {
+    top: 50px;
+    left: 196px;
+    width: 28px;
+    height: 28px;
+    text-align: center;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    position: absolute;
+}

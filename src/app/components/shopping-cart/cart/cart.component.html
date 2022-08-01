@@ -1,11 +1,29 @@
-<div *ngIf="cartItems.length === 0" class="alert alert-info">Your Cart is Empty.</div>
+<!--Column Right-->
 
-<ul *ngIf="cartItems.length > 0" class="list-group">
+  <div class="total-img">
+    <img src="../../../../assets/images/carrito.png" alt="">
+    <div class="total">
+    <p>Total<br/> {{ cartTotal | currency:'$' }}</p> 
+    </div>
+  </div>
+
+<!--List Product-->
+  <div class="container-cart">
+  <div *ngIf="cartItems.length === 0" class="alert alert-info">Your Cart is Empty.</div>
+
+<ul *ngIf="cartItems.length > 0" class="list-group" style="overflow-x: hidden;">
   <li class="list-group-item" *ngFor="let item of cartItems">
     <app-cart-item [cartItem]="item"></app-cart-item>
-  </li>
 
-  <li class="list-group-item active">
-    <strong>Total</strong> {{ cartTotal | currency:'INR' }}
-  </li>
+    <li class="list-group-item active">
+    <strong>Total</strong> {{ cartTotal | currency:'$' }}
+    </li>
 </ul>
+</div>
+
+<!--Contact Botton-->
+  <div class="celular">
+    <input class="tel" type="tel" placeholder="Celular"><br><br>
+    <button name="button">VENDER</button>
+  
+  </div>

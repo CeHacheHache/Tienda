@@ -1,0 +1,368 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Arroz Roa 1000gr",
+      "description": "Arroz roa 1000gr",
+      "imageUrl": "https://i.postimg.cc/sDdkkFjN/Captura-de-Pantalla-2022-07-29-a-las-12-18-13.png",
+      "price": 1.2
+    },
+    {
+      "id": 2,
+      "name": "Coca Cola 250ml",
+      "description": "Coca Cola 250ml,",
+      "imageUrl": "https://i.postimg.cc/ZYVNgmxT/Captura-de-Pantalla-2022-07-29-a-las-12-19-52.png",
+      "price": 1.5
+    },
+    {
+      "id": 3,
+      "name": "Atún Van Camp 180g",
+      "description": "Atun",
+      "imageUrl": "https://i.postimg.cc/vT0gJ7RY/Captura-de-Pantalla-2022-07-29-a-las-11-51-38.png",
+      "price": 15.6
+    },
+    {
+      "id": 4,
+      "name": "Rufles Queso 50gr",
+      "description": "Bolsa de rufles queso 50 gr onduladas",
+      "imageUrl": "https://i.postimg.cc/KvbMRzcr/Captura-de-Pantalla-2022-07-29-a-las-11-46-01.png",
+      "price": 670
+    },
+    {
+      "id": 5,
+      "name": "Maiz tostado la especial 40gr",
+      "description": "Maiz tostado la especial,",
+      "imageUrl": "https://i.postimg.cc/TPvwHNyj/Captura-de-Pantalla-2022-07-29-a-las-11-53-07.png",
+      "price": 1250
+    },
+    {
+      "id": 6,
+      "name": "Red Bull 250ml",
+      "description": "Lata de RedBull Original 250ml,",
+      "imageUrl": "https://i.postimg.cc/K8HVZC7L/Captura-de-Pantalla-2022-07-29-a-las-11-55-48.png",
+      "price": 1800
+    },
+    {
+      "id": 7,
+      "name": "Organic Kombuha 250ml",
+      "description": "Kombucha de jenjibre y limón,",
+      "imageUrl": "https://i.postimg.cc/zvpLWC0m/Captura-de-Pantalla-2022-07-29-a-las-12-04-13.png",
+      "price": 2000
+    },
+    {
+      "id": 8,
+      "name": "Yogur de Coco 400ml",
+      "description": "Yogur de coco orgánico,",
+      "imageUrl": "https://i.postimg.cc/FKm4tMhZ/Captura-de-Pantalla-2022-07-29-a-las-12-06-21.png",
+      "price": 1900
+    },
+    {
+      "id": 9,
+      "name": "Bebida proteica 50ml",
+      "description": "Gel con taurina sabor plátano Nutrisport,",
+      "imageUrl": "https://i.postimg.cc/Wp7SSxyV/Captura-de-Pantalla-2022-07-29-a-las-12-10-22.png",
+      "price": 1050
+    },
+    {
+      "id": 10,
+      "name": "Nueces 150ml",
+      "description": "nueces de Brasil,",
+      "imageUrl": "https://i.postimg.cc/C15Mt342/Captura-de-Pantalla-2022-07-29-a-las-12-12-31.png",
+      "price": 1800
+    },
+    {
+      "id": 11,
+      "name": "Galletas sin gluten 200mg",
+      "description": "Galletas de cacao sin gluten Digestive,",
+      "imageUrl": "https://i.postimg.cc/nLYT55Lq/Captura-de-Pantalla-2022-07-29-a-las-12-14-21.png",
+      "price": 1870
+    },
+    {
+      "id": 12,
+      "name": "Azúcar moreno 1kg",
+      "description": "Azucar moreno integral de caña con melaza,",
+      "imageUrl": "https://i.postimg.cc/XNHWm1GM/Captura-de-Pantalla-2022-07-29-a-las-12-16-28.png",
+      "price": 1900
+    }
+  ],
+  "wishlist": [
+    {
+      "id": 1
+    },
+    {
+      "id": 3
+    },
+    {
+      "id": 4
+    }
+  ],
+  "cart": [
+    {
+      "product": {
+        "id": 2,
+        "name": "Coca Cola 250ml",
+        "description": "Botella de Coca Cola Zero de 250ml,",
+        "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/610YnX2Cu9L._CR204,0,1224,1224_UX256.jpg",
+        "price": 199
+      },
+      "id": 1
+    },
+    {
+      "product": {
+        "id": 3,
+        "name": "Atún Van Camp 180g",
+        "description": "Atun",
+        "imageUrl": "https://i.postimg.cc/vT0gJ7RY/Captura-de-Pantalla-2022-07-29-a-las-11-51-38.png",
+        "price": 15.6
+      },
+      "id": 2
+    },
+    {
+      "product": {
+        "id": 3,
+        "name": "Atún Van Camp 180g",
+        "description": "Atun",
+        "imageUrl": "https://i.postimg.cc/vT0gJ7RY/Captura-de-Pantalla-2022-07-29-a-las-11-51-38.png",
+        "price": 15.6
+      },
+      "id": 23
+    },
+    {
+      "product": {
+        "id": 3,
+        "name": "Atún Van Camp 180g",
+        "description": "Atun",
+        "imageUrl": "https://i.postimg.cc/vT0gJ7RY/Captura-de-Pantalla-2022-07-29-a-las-11-51-38.png",
+        "price": 15.6
+      },
+      "id": 24
+    },
+    {
+      "product": {
+        "id": 2,
+        "name": "Coca Cola 250ml",
+        "description": "Coca Cola 250ml,",
+        "imageUrl": "https://i.postimg.cc/ZYVNgmxT/Captura-de-Pantalla-2022-07-29-a-las-12-19-52.png",
+        "price": 1.5
+      },
+      "id": 194
+    },
+    {
+      "product": {
+        "id": 1,
+        "name": "Arroz Roa 1000gr",
+        "description": "Arroz roa 1000gr",
+        "imageUrl": "https://i.postimg.cc/sDdkkFjN/Captura-de-Pantalla-2022-07-29-a-las-12-18-13.png",
+        "price": 1.2
+      },
+      "id": 195
+    },
+    {
+      "product": {
+        "id": 1,
+        "name": "Arroz Roa 1000gr",
+        "description": "Arroz roa 1000gr",
+        "imageUrl": "https://i.postimg.cc/sDdkkFjN/Captura-de-Pantalla-2022-07-29-a-las-12-18-13.png",
+        "price": 1.2
+      },
+      "id": 196
+    },
+    {
+      "product": {
+        "id": 1,
+        "name": "Arroz Roa 1000gr",
+        "description": "Arroz roa 1000gr",
+        "imageUrl": "https://i.postimg.cc/sDdkkFjN/Captura-de-Pantalla-2022-07-29-a-las-12-18-13.png",
+        "price": 1.2
+      },
+      "id": 197
+    },
+    {
+      "product": {
+        "id": 1,
+        "name": "Arroz Roa 1000gr",
+        "description": "Arroz roa 1000gr",
+        "imageUrl": "https://i.postimg.cc/sDdkkFjN/Captura-de-Pantalla-2022-07-29-a-las-12-18-13.png",
+        "price": 1.2
+      },
+      "id": 198
+    },
+    {
+      "product": {
+        "id": 1,
+        "name": "Arroz Roa 1000gr",
+        "description": "Arroz roa 1000gr",
+        "imageUrl": "https://i.postimg.cc/sDdkkFjN/Captura-de-Pantalla-2022-07-29-a-las-12-18-13.png",
+        "price": 1.2
+      },
+      "id": 199
+    },
+    {
+      "product": {
+        "id": 1,
+        "name": "Arroz Roa 1000gr",
+        "description": "Arroz roa 1000gr",
+        "imageUrl": "https://i.postimg.cc/sDdkkFjN/Captura-de-Pantalla-2022-07-29-a-las-12-18-13.png",
+        "price": 1.2
+      },
+      "id": 200
+    },
+    {
+      "product": {
+        "id": 1,
+        "name": "Arroz Roa 1000gr",
+        "description": "Arroz roa 1000gr",
+        "imageUrl": "https://i.postimg.cc/sDdkkFjN/Captura-de-Pantalla-2022-07-29-a-las-12-18-13.png",
+        "price": 1.2
+      },
+      "id": 201
+    },
+    {
+      "product": {
+        "id": 1,
+        "name": "Arroz Roa 1000gr",
+        "description": "Arroz roa 1000gr",
+        "imageUrl": "https://i.postimg.cc/sDdkkFjN/Captura-de-Pantalla-2022-07-29-a-las-12-18-13.png",
+        "price": 1.2
+      },
+      "id": 202
+    },
+    {
+      "product": {
+        "id": 1,
+        "name": "Arroz Roa 1000gr",
+        "description": "Arroz roa 1000gr",
+        "imageUrl": "https://i.postimg.cc/sDdkkFjN/Captura-de-Pantalla-2022-07-29-a-las-12-18-13.png",
+        "price": 1.2
+      },
+      "id": 203
+    },
+    {
+      "product": {
+        "id": 1,
+        "name": "Arroz Roa 1000gr",
+        "description": "Arroz roa 1000gr",
+        "imageUrl": "https://i.postimg.cc/sDdkkFjN/Captura-de-Pantalla-2022-07-29-a-las-12-18-13.png",
+        "price": 1.2
+      },
+      "id": 204
+    },
+    {
+      "product": {
+        "id": 1,
+        "name": "Arroz Roa 1000gr",
+        "description": "Arroz roa 1000gr",
+        "imageUrl": "https://i.postimg.cc/sDdkkFjN/Captura-de-Pantalla-2022-07-29-a-las-12-18-13.png",
+        "price": 1.2
+      },
+      "id": 205
+    },
+    {
+      "product": {
+        "id": 1,
+        "name": "Arroz Roa 1000gr",
+        "description": "Arroz roa 1000gr",
+        "imageUrl": "https://i.postimg.cc/sDdkkFjN/Captura-de-Pantalla-2022-07-29-a-las-12-18-13.png",
+        "price": 1.2
+      },
+      "id": 206
+    },
+    {
+      "product": {
+        "id": 1,
+        "name": "Arroz Roa 1000gr",
+        "description": "Arroz roa 1000gr",
+        "imageUrl": "https://i.postimg.cc/sDdkkFjN/Captura-de-Pantalla-2022-07-29-a-las-12-18-13.png",
+        "price": 1.2
+      },
+      "id": 207
+    },
+    {
+      "product": {
+        "id": 1,
+        "name": "Arroz Roa 1000gr",
+        "description": "Arroz roa 1000gr",
+        "imageUrl": "https://i.postimg.cc/sDdkkFjN/Captura-de-Pantalla-2022-07-29-a-las-12-18-13.png",
+        "price": 1.2
+      },
+      "id": 208
+    },
+    {
+      "product": {
+        "id": 1,
+        "name": "Arroz Roa 1000gr",
+        "description": "Arroz roa 1000gr",
+        "imageUrl": "https://i.postimg.cc/sDdkkFjN/Captura-de-Pantalla-2022-07-29-a-las-12-18-13.png",
+        "price": 1.2
+      },
+      "id": 209
+    },
+    {
+      "product": {
+        "id": 1,
+        "name": "Arroz Roa 1000gr",
+        "description": "Arroz roa 1000gr",
+        "imageUrl": "https://i.postimg.cc/sDdkkFjN/Captura-de-Pantalla-2022-07-29-a-las-12-18-13.png",
+        "price": 1.2
+      },
+      "id": 210
+    },
+    {
+      "product": {
+        "id": 1,
+        "name": "Arroz Roa 1000gr",
+        "description": "Arroz roa 1000gr",
+        "imageUrl": "https://i.postimg.cc/sDdkkFjN/Captura-de-Pantalla-2022-07-29-a-las-12-18-13.png",
+        "price": 1.2
+      },
+      "id": 211
+    },
+    {
+      "product": {
+        "id": 1,
+        "name": "Arroz Roa 1000gr",
+        "description": "Arroz roa 1000gr",
+        "imageUrl": "https://i.postimg.cc/sDdkkFjN/Captura-de-Pantalla-2022-07-29-a-las-12-18-13.png",
+        "price": 1.2
+      },
+      "id": 212
+    },
+    {
+      "product": {
+        "id": 1,
+        "name": "Arroz Roa 1000gr",
+        "description": "Arroz roa 1000gr",
+        "imageUrl": "https://i.postimg.cc/sDdkkFjN/Captura-de-Pantalla-2022-07-29-a-las-12-18-13.png",
+        "price": 1.2
+      },
+      "id": 213
+    },
+    {
+      "product": {
+        "id": 1,
+        "name": "Arroz Roa 1000gr",
+        "description": "Arroz roa 1000gr",
+        "imageUrl": "https://i.postimg.cc/sDdkkFjN/Captura-de-Pantalla-2022-07-29-a-las-12-18-13.png",
+        "price": 1.2
+      },
+      "id": 214
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

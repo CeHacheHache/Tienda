@@ -1,15 +1,5 @@
-/* You can add global styles to this file, and also import other style files */
-.cart-item {
-  font-size: small;
-}
+/* Global styles */
 
-.filters {
-  font-size: small;
-}
-
-.card, .form-control, .btn {
-  border-radius: 0;
-}
 
 .list-group-item:first-child {
   border-top-left-radius: 0;
@@ -21,24 +11,16 @@
   border-bottom-right-radius: 0;
 }
 
-.product-btn {
-  font-size: smaller;
+
+
+.container{
+  top: 0px;
+  left: 0px;
+  width: 1024px;
+  height: 1208px;
+  background: #EFEFEF 0% 0% no-repeat padding-box;
+  opacity: 1;
+  position: relative;
+  align-items: center;
 }
 
-.fa-heart {
-  color: palevioletred;
-  cursor: pointer;
-}
-
-.guest-form-card h2 {
-  text-transform: uppercase;
-  font-size: medium;
-}
-
-.guest-form-card label {
-  font-size: small;
-}
-
-.btn-primary.disabled, .btn-primary:disabled {
-  cursor: not-allowed;
-}

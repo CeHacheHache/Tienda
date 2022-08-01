@@ -2,7 +2,6 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
-
 import { CartItem } from '../models/cart-item';
 import { cartUrl } from '../config/api';
 import { Product } from '../models/product';
@@ -11,6 +10,9 @@ import { Product } from '../models/product';
   providedIn: 'root'
 })
 export class CartService {
+  removeProductToCart(productItem: Product) {
+    throw new Error('Method not implemented.');
+  }
 
   constructor(private http: HttpClient) { }
 
@@ -29,19 +31,37 @@ export class CartService {
               productExists = true
               break;
             }
+            
           }
-
           if (!productExists) {
             cartItems.push(new CartItem(item.id, item.product));
+          
           }
-        }
 
+
+        }
         return cartItems;
+        
+
+        
       })
     );
+
+    
   }
 
   addProductToCart(product: Product): Observable<any> {
     return this.http.post(cartUrl, { product });
   }
+
+  
+
+  deleteProductToCart(product: Product): Observable<any> {
+    return this.http.post(cartUrl, { product });
+ }
+
+
 }
+
+
+
